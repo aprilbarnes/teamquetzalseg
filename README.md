@@ -1,11 +1,12 @@
-# Team *enter team name here* Small Group project
+# Team Quetzal Small Group project
 
 ## Team members
 The members of the team are:
-- *Enter member 1*
-- *Enter member 2*
-- *Enter member 3*
-- *Enter member 4*
+- Rafay Ahmed
+- Shermiaya Raymond
+- Fahimul Ahmed 
+- Suliman Riaz
+- April Barnes
 *Add any further information about the team here, such as absent team members.*
 
 ## Project structure
