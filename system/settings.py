@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chessclub.wsgi.application'
+WSGI_APPLICATION = 'system.wsgi.application'
 
 
 # Database
@@ -126,4 +126,4 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Make User Models
-AUTH_USER_MODEL = 'chessclubms.User'
+AUTH_USER_MODEL = 'clubs.User'
