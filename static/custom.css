@@ -1,0 +1,8 @@
+
+#cover-img{
+  background: url('Static/imgs/new-chess-cover.jpg') no repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  bacground-size: cover;
+  -o-bacground-size: cover;
+}

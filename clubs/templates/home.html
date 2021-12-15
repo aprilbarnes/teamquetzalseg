@@ -1,11 +1,28 @@
-<html>
-<head>
-  <title>Chess Club Quetzel</title>
-</head>
-  <body>
-    <h1>Chess Club Quetzel</h1>
-    <p>The platform for extremely competitive chess games.</p>
-    <p><a href='{% url 'sign_up'%}'>Sign up</a></p>
-    <p><a href='#' >Log in</a></p>
-  </body>
-</html>
+
+    {% extends 'base.html' %}
+    {% block body %}
+
+    <div id="cover-img">
+     <div class="container vh-100">
+       <div class="row h-100">
+         <div class="col-12 my-auto">
+           <div class="card offset-sm-2 offset-md-4 offset-lg-7">
+             <h1>The Chess Club</h1>
+             <p>The platform for extremely competitive chess games.</p>
+             <p>
+               <a href='{% url 'sign_up'%}' class="btn btn-lg btn-secondary">
+                 Sign up
+               </a>
+             </p>
+             <p>
+               <a href='#' class="btn btn-lg btn-secondary">
+                 Log in
+               </a>
+             </p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   {% endblock %}
